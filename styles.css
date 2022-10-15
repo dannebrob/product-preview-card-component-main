@@ -91,7 +91,7 @@ h1 {
   color: var(--dark-cyan);
   font-family: var(--Fraunces);
   font-size: 2.5rem;
-  padding-right: 2rem;
+  padding-right: 1rem;
 }
 .prev-price {
   text-decoration: line-through;
@@ -137,14 +137,24 @@ span {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: auto;
+    width: 60%;
   }
   .wrapper {
     flex-direction: row;
+    width: 40rem;
+  }
+
+  .image-section {
+    width: 40rem;
   }
 
   .img {
     height: 100%;
     max-height: 100%;
     padding: 0;
+  }
+  h2 {
+    padding-top: 2rem;
   }
 }
